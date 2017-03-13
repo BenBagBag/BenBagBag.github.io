@@ -16,7 +16,7 @@ externalLink: false
 
 <!-- ![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png) -->
 
-I built this Allergen List Lookup App (ALLA) in React for the UW JS200 course.
+I built this Allergen List Lookup App in React for the UW JS200 course.
 
 It helps you navigate food allergies by letting you add a list of your allergies and then searching for a recipe. You get back two lists of recipes matching your search query: one with allergens and one without. You can then make an informed decision about what questions to ask about a dish at restaurants or your well-meaning-but-clueless-friend's house, and you can find recipes that cater to your needs.
 
