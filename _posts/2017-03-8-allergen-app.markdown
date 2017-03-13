@@ -22,4 +22,4 @@ It helps you navigate food allergies by letting you add a list of your allergies
 
 I accept no liability for what happens if you rely entirely on this app instead of your own common sense/caution.
 
-You can play with it [here](https://benbagbag.bitbucket.io/allergen_app/).
+You can play with it [here](https://benbagbag.bitbucket.io/allergen_app/) and a redacted version of the code is [here](https://github.com/BenBagBag/allergen_app).
