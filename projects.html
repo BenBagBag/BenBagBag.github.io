@@ -1,16 +1,47 @@
----
-layout: page
-title: Projects
----
-<section class="list">
-    {% for post in site.posts %}
-        {% if post.projects %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                    {{ post.jemoji }}<h3 class="title">{{ post.title }}</h3>
-                </a>
-            </div>
-        {% endif %}
-    {% endfor %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>Projects</title>
+        <link rel="stylesheet" href="./theme/css/main.css" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="./">Isaac</a></h1>
+                <nav><ul>
+                    <li><a href="./pages/about.html">About</a></li>
+                    <li class="active"><a href="./pages/projects.html">Projects</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+    <h1 class="entry-title">Projects</h1>
+    
+    <p>Check out my work:</p>
+<ul>
+<li><a href="https://github.com/BenBagBag/egrid/blob/main/How%20Green%20Is%20My%20Grid%3F.ipynb">How Green is My Grid?</a>: explores the environmental impact of the US power grid and what that impact will be as energy needs grow.</li>
+</ul>
 </section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="https://github.com/BenBagBag">Github</a></li>
+                            <li><a href="https://www.linkedin.com/in/isaaccowhey">Linkedin</a></li>
+                            <li><a href="mailto:isaac.cowhey@gmail.com">Contact</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
