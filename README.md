@@ -1,8 +1,13 @@
-##Personal Site
-Built on Jekyll with the Indigo theme ([MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin)
-- Documentation [here](https://github.com/sergiokopplin/indigo)
-- More documentation [here](https://github.com/barryclark/jekyll-now)
+Generate the static site:
+`pelican content`
 
-##Running Locally
-To run:
-`$jekyll serve`
+Run the local server:
+`pelican --listen`
+
+Deploy to GH Pages:
+
+```
+$ pelican content -o output -s pelicanconf.py
+$ ghp-import output -b gh-pages
+$ git push git@github.com:BenBagBag/BenBagBag.github.io.git gh-pages:master
+```
